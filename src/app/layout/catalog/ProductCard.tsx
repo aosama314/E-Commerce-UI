@@ -16,7 +16,6 @@ interface Props {
 }
 
 const ProductCard = ({ product }: Props) => {
-  console.log(product);
   return (
     <Card>
       <CardHeader
